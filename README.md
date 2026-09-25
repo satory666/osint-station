@@ -136,7 +136,7 @@ sudo systemctl enable tor --now
 
 ```python
 import requests, re, time, urllib.parse
-KEYWORDS = ["Dragon Casino", "Dragon Money", "Драгон Казино", "drgn59"]
+KEYWORDS = ["Brand", "Бренд", "Бренд зеркало"]
 print("[*] Запуск стабильного поиска по базам Даркнета (API Ahmia)...")
 print("-" * 60)
 for kw in KEYWORDS:
