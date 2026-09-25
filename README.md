@@ -66,7 +66,7 @@ API_ID = os.environ.get("TG_API_ID")
 API_HASH = os.environ.get("TG_API_HASH")
 
 # Массив ключевых слов для циклической проверки периметра
-KEYWORDS = ["Brand Casino", "Brand Money", "Бренд Казино", "Бренд Зеркало", "Бренд Поддержка"] 
+KEYWORDS = ["Brand", "Бренд", "Бренд Зеркало"] 
 
 async def main():
     async with TelegramClient('osint_session', API_ID, API_HASH) as client:
