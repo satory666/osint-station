@@ -56,6 +56,7 @@ dnstwist --registered target_domain.com --format json > /root/domain_scan_result
 
 ```Python import asyncio
 import csv
+import asyncio
 from telethon import TelegramClient
 from telethon.tl.functions.contacts import SearchRequest
 from telethon.tl.functions.channels import GetFullChannelRequest
